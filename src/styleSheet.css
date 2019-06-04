@@ -1,10 +1,35 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    pverflow: hidden;
+    background-color: #333;
+}
+li {
+    float: top;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #333;
+}
+
+body{
+    font-family: Arial;
+}
+
 h2, h1 {
     text-align: center;
     font-family: Arial;
     color: mediumblue;
 }
 
-body{
-    font-family: Arial;
-}
 
