@@ -2,10 +2,11 @@
 ul {
     list-style-type: none;
     margin: 0;
+    display: flex;
     padding: 0;
-    pverflow: hidden;
-    background-color: #333;
+    text-align: left;
 }
+
 li {
     float: top;
 }
@@ -13,23 +14,53 @@ li {
 li a{
     display: block;
     color: white;
-    text-align: center;
     padding: 10px 10px;
     text-decoration: none;
 }
 
 li a:hover{
-    background-color: #333;
+    color: #333;
 }
 
 body{
     font-family: Arial;
+    background-color: lightgray;
+}
+
+.nav {
+
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.container{
+    padding: 25px;
+    padding-top: 2em;
+    background-color: #c5c5c5;
 }
 
 h2, h1 {
     text-align: center;
     font-family: Arial;
     color: mediumblue;
+    background-color: darkgrey;
 }
 
+a {
+    text-align: left;
+}
+
+* {
+    margin: 0;
+
+}
+p {
+    background-color: white;
+}
+ol > li, ol {
+    background-color: white;
+}
 
