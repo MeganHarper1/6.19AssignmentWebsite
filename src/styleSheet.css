@@ -1,4 +1,10 @@
-h2, h1{
-    font-family: "Arial Black";
+h2, h1 {
+    text-align: center;
+    font-family: Arial;
+    color: mediumblue;
+}
+
+body{
+    font-family: Arial;
 }
 
